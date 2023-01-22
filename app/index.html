@@ -14,6 +14,25 @@
                 <div>画像ファイルをドロップするかタップしてください。</div>
             </div>
             <canvas id="view" width="800" height="420"></canvas>
+            <input type="file" accept=".jpg,.jpeg,.png,.gif" id="file">
+        </div>
+        <div id="controleArea" class="uiArea">
+            <button id="ef1">セピア</button>
+            <button id="efBack">戻す</button>
+            <button id="efSave">保存</button>
+            <button id="efDel">削除</button>
+        </div>
+        <div id="commentArea" class="uiArea">
+            <div>コメント <span id="commenStatus"></span></div>
+
+            <div>
+                <textarea id="comment" data-default="投稿です!" data-lenmax="100"></textarea>
+            </div>        
+        </div>
+        <div id="sendArea" class="uiArea">
+            <button id="send">投稿</button>
+        </div>
+        <div id="postListArea"> 
         </div>
     </div>
     
